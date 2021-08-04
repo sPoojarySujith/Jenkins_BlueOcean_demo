@@ -29,7 +29,6 @@ pipeline {
         stage('Test3') {
           steps {
             echo 'Test3 Successful'
-            sh 'dddd'
           }
         }
 
